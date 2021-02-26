@@ -65,11 +65,11 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
     /* function format          argument */
-    {run_command, " [ %s]", "sh /home/bodzio/scripts/get_volume.sh"},
-    {datetime, " [%s]", "%a %d-%m-%Y %H:%M"},
-    {disk_free, " [/: %s]", "/"},
-    {disk_free, " [/mnt/hdd: %s]", "/mnt/hdd"},
-    {ipv4, " [🌐 %s]", "enp3s0"},
-    {cpu_perc, " [CPU  %s%]", "%F %T"},
-    {ram_perc, " [RAM  %s%] ", "%F %T"},
+    {run_command, " [🔊 %s]", "sh /home/bodzio/scripts/get_volume.sh"},
+    {datetime, " [📅 %s]", "%a %d-%m-%Y %H:%M"},
+    {disk_free, " [💽 /: %s]", "/"},
+    {disk_free, " [💽 /mnt/pen: %s]", "/mnt/pen"},
+    {ipv4, " [🌍 %s]", "enp3s0"},
+    {cpu_perc, " [CPU 💻 %s%]", "%F %T"},
+    {ram_perc, " [RAM 🧠 %s%] ", "%F %T"},
 };
