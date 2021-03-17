@@ -65,7 +65,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
     /* function format          argument */
-    {run_command, " [🔊 %s]", "sh /home/bodzio/scripts/get_volume.sh"},
+    {run_command, " [🔊 %s]", "dash /home/bodzio/scripts/get_volume.sh"},
     {datetime, " [📅 %s]", "%a %d-%m-%Y %H:%M"},
     {disk_free, " [💽 /: %s]", "/"},
     {disk_free, " [💽 /mnt/pen: %s]", "/mnt/pen"},
